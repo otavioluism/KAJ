@@ -19,7 +19,7 @@ const App: React.FC = () => {
        </Photo>
        <Main>
          <div className="texto">
-            <h1 className="day">AMANHÃ</h1>
+            <h1 className="day">HOJE!</h1>
             <h3 className="entrega">Delivery ou Retirada no Balcão</h3>
             <h3 className="garanta">GARANTA JÁ O SEU!</h3>
             <h1 className="especial">ESPECIAL BURGUER BACON CHEDDAR</h1>
