@@ -28,10 +28,10 @@ const App: React.FC = () => {
            <div className="ingredientes">
              <h1>INGREDIENTES</h1>
              <p>Pão Brioche Amanteigado</p>
-             <p>Hambúrguer artesanal 200g</p>
-             <p>Farofa de Bacon e tiras crocantes</p>
-             <p>Molho Barbecue</p>
-             <p>Batata Frita 180g</p>
+             <p>+ Hambúrguer artesanal 200g</p>
+             <p>+ Farofa de Bacon e tiras crocantes</p>
+             <p>+ Molho Barbecue</p>
+             <p>+ Batata Frita 180g</p>
              <div className="preco">
                 <h1>R$ 28,00</h1>
              </div>
