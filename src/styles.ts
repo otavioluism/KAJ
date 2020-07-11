@@ -75,6 +75,7 @@ export const Main = styled.div`
         background: #964B00;
         padding: 20px;
         margin: 10px;
+        border-radius: 40px 0px 40px 0px;
 
         h1{ 
           color: #000000;
@@ -100,6 +101,7 @@ export const Main = styled.div`
         background: #964B00;
         padding: 20px;
         margin: 10px;
+        border-radius: 0px 40px 0px 30px;
 
         h1{
           color: #000000;
@@ -129,6 +131,7 @@ export const Botao = styled.div`
   align-items: center;
   justify-content: center;
   padding: 10px;
+  margin-bottom: 30px;
 
   div{ 
     padding: 10px;
