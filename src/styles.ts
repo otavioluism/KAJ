@@ -136,6 +136,7 @@ export const Restricao = styled.div`
   padding: 10px;
   color: #000;
   
+  
   h4 { 
     text-align: center;
     margin-bottom: 10px;
