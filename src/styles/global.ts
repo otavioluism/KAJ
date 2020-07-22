@@ -16,7 +16,7 @@ export default createGlobalStyle`
     background: #000000;
     color: #FFF;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto', Poppins;
     font-size: 1.6rem;
   }
 

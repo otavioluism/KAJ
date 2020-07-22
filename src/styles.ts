@@ -38,91 +38,63 @@ export const Main = styled.div`
   align-items: center;
   justify-content: center;
   background: #FF9000;
-  margin-bottom: 10px;
+  opacity: 90%;
 
   div.texto{ 
-    margin-top: 10px;
+    margin: 10px 5px 5px;
     text-align: center;
     h1.day{ 
-      font-size: 40px;
+      font-size: 45px;
       color: #FD0E0E;
       margin-bottom: 10px;
     }
     h3.entrega{ 
       color: #000000;
       font-size: 30px;
-      margin-bottom: 20px;
     }
     h3.garanta{ 
       color: #7B3737;
       font-size: 25px;
       font-weight: bold;
     }
-    h1.especial{ 
+    h5.especial{ 
       font-family: 'Roboto';
-      font-size: 45px;
+      font-size: 16px;
+      margin-bottom: 20px;
     }
   }
 
   div.blocos{ 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-template-columns: repeat(auto-fit, minmax(80%, 100%));
    justify-content: center;
     gap: 15px;
     text-align: center;
     
       div.ingredientes{ 
         background: #964B00;
-        padding: 20px;
-        margin: 10px;
+        padding: 10px;
         border-radius: 40px 0px 40px 0px;
-
-        h1{ 
-          color: #000000;
-          margin-bottom: 20px;
-        }
-
-        p {
-          margin-top: 15px;
-          font-size: 20px;
-        }
+        margin-bottom: 10px;
 
         div.preco{ 
           margin-top: 30px;
-          background: #FF9000;
+          border: solid 2px;
           border-radius: 10px;
+          padding: 10px;
           h1{ 
+            font-size: 50px;
             color: #FFF;
+            line-height: 54px
           }
         }
-      }
-
-      div.entrega{ 
-        background: #964B00;
-        padding: 20px;
-        margin: 10px;
-        border-radius: 0px 40px 0px 30px;
-
-        h1{
-          color: #000000;
-
-        }
-
-        h3{ 
-          margin-top: 20px;
-          color: #FF9000;
-          margin-bottom: 20px;
-        }
-
-        div.preco{ 
-          margin-top: 20px;
-          background: #FF9000;
-          border-radius: 10px;
-          h1{ 
-            color: #FFF;
+        h2{ 
+            font-size: 23px;
+            color: #FF691E;
+            opacity: 70%;
           }
-        }
       }
+
     }
 `;
 
@@ -134,14 +106,38 @@ export const Botao = styled.div`
   margin-bottom: 30px;
 
   div{ 
-    padding: 10px;
     background: #FF691E;
 
+    &:hover{ 
+      border: solid 2px;
+    }
+
     a { 
+      padding: 20px;
       text-decoration: none;
       color: #FFF;
-      font-size: 30px;
+      font-size: 35px;
       font-weight: bold;
+      transition: opacity 0.3s;
+
+      &:hover{ 
+        opacity: 40%;
+      }
     }
+
+    & + div { 
+      margin-left: 30px;
+    }
+  }
+`;
+
+export const Restricao = styled.div`
+  background: #FFF;
+  padding: 10px;
+  color: #000;
+  
+  h4 { 
+    text-align: center;
+    margin-bottom: 10px;
   }
 `;
