@@ -116,7 +116,7 @@ export const Botao = styled.div`
       padding: 20px;
       text-decoration: none;
       color: #FFF;
-      font-size: 35px;
+      font-size: 25px;
       font-weight: bold;
       transition: opacity 0.3s;
 
