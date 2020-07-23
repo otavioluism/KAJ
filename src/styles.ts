@@ -56,6 +56,8 @@ export const Main = styled.div`
   background: #FF9000;
   opacity: 90%;
 
+  animation: ${appearFromLeft} 5s;
+
   div.texto{ 
     margin: 10px 5px 5px;
     text-align: center;
@@ -86,6 +88,8 @@ export const Main = styled.div`
    justify-content: center;
     gap: 15px;
     text-align: center;
+
+    animation: ${appearFromLeft} 5s;
     
       div.ingredientes{ 
         background: #964B00;
@@ -121,6 +125,8 @@ export const Botao = styled.div`
   padding: 10px;
   margin-bottom: 30px;
 
+  animation: ${appearFromLeft} 5s;
+
   div{ 
     background: #FF691E;
 
@@ -152,6 +158,7 @@ export const Restricao = styled.div`
   padding: 10px;
   color: #000;
   
+  animation: ${appearFromLeft} 5s;
   
   h4 { 
     text-align: center;
