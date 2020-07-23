@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const Container = styled.div`
     max-width: 1000px;
@@ -6,10 +6,24 @@ export const Container = styled.div`
     margin: auto;
 `;
 
+const appearFromLeft = keyframes`
+from{
+  opacity: 0;
+  transform: translateX(-50px);
+}
+to {
+  opacity: 1;
+  transform: translateX(0);
+}
+`;
+
 export const Content = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    animation: ${appearFromLeft} 5s;
+
   img{ 
     display: flex;
     align-items: center;
@@ -23,6 +37,8 @@ export const Photo = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  animation: ${appearFromLeft} 5s;
   
   img{ 
     width: 100%;
